@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    
+    
+}
+header {
+    background:black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.wepage{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.link{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+ 
+.link li{
+    display: inline;
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+}
+.link a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.map {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.forms {
+    width:150%;
+    max-width: 600px;
+}
+
+.forms h2 {
+    text-align: center;
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms label {
+    color: red;
+    margin-top: 10px;
+}
+
+.forms input, .forms textarea {
+    padding: 10px ;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.forms input[type="submit"] {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.forms input[type="submit"]:hover {
+    background-color:aqua;
+}
+.map {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.user-id {
+    max-width: 500px;
+    margin: 10px;
+}
+
+.user-id h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+footer {
+
+    background:black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+} 
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-sec {
+    max-width: 300px;
+    margin: 10px;
+}
+.footer-sec h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer-sec p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.media-icon {
+    margin-top: 10px;
+}
+
+.media-icon a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.media-icon a:hover {
+    color:aqua;
+}
+.f-b-c {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.f-b-c p {
+    margin: 0;
+}
